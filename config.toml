@@ -1,0 +1,45 @@
+baseurl = "/"
+languageCode = "pt-br"
+theme = "hello-friend"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+  # Show reading time in minutes for posts
+  showReadingTime = true
+
+[languages]
+  [languages.en]
+    title = "Liga dos Programadores"
+    subtitle = "Blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mostrar mais"
+    writtenBy = "Escrito por"
+    readMore = "Leia mais"
+    readOtherPosts = "Leia outros posts"
+    newerPosts = "Posts mais novos"
+    olderPosts = "Post mais antigos"
+    minuteReadingTime = "minuto de leitura"
+    dateFormatSingle = "02/01/2006"
+    dateFormatList = "02/01/2006"
+
+
+    [languages.en.params.logo]
+      logoText = "Liga dos Programadores"
+      logoHomeLink = ""
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "sobre"
+        name = "Sobre"
+        url = "/sobre"
