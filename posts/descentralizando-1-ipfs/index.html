@@ -1,134 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="author"
-    content="@ratsclub">
-<meta name="description"
-    content="IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
+  <head>
+    
+      <title>#descentralizando - 1. Conhecendo o IPFS :: Liga dos Programadores — Blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
 Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na Wikipedia que será algo como:
  https://en.wikipedia.org/wiki/Vincent_Van_Gogh
- Quando você colocar essa URL no seu navegador, você está pedindo para que um computador da Wikipedia lhe forneça a página sobre Vincent Van Gogh." />
-<meta name="keywords" content="" />
-<meta name="robots" content="noodp" />
+ Quando você colocar essa URL no seu navegador, você está pedindo para que um computador da Wikipedia lhe forneça a página sobre Vincent Van Gogh."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
 <link rel="canonical" href="/posts/descentralizando-1-ipfs/" />
 
 
-<title>
-    
-    #descentralizando - 1. Conhecendo o IPFS :: Liga dos Programadores  — Blog
-    
-</title>
 
 
 
-<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
-    type="text/css">
+<link rel="stylesheet" href="/assets/style.css">
 
 
-
-<link rel="stylesheet" href="/main.min.2f0d18b84270567c723bff340b09ab08db3a7634237cd9667d052eb6b14669b8.css">
-
+<link rel="stylesheet" href="/style.css">
 
 
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
-<link rel="shortcut icon" href="/favicon.ico">
-<meta name="theme-color" content="#252627"><meta itemprop="name" content="#descentralizando - 1. Conhecendo o IPFS">
-<meta itemprop="description" content="Conhecendo o IPFS e seus conceitos">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
 
 
-<meta itemprop="datePublished" content="2019-10-22T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-10-22T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="890">
-
-
-
-<meta itemprop="keywords" content="" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="#descentralizando - 1. Conhecendo o IPFS"/>
 <meta name="twitter:description" content="Conhecendo o IPFS e seus conceitos"/>
 
 
 
+<meta property="og:title" content="#descentralizando - 1. Conhecendo o IPFS" />
+<meta property="og:description" content="Conhecendo o IPFS e seus conceitos" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/descentralizando-1-ipfs/" />
+<meta property="article:published_time" content="2019-10-22T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-22T00:00:00+00:00" /><meta property="og:site_name" content="Liga dos Programadores" />
 
-<meta property="article:published_time" content="2019-10-22 00:00:00 &#43;0000 UTC" />
 
 
 
 
 
-
-
-    </head>
-
-    <body class="dark-theme">
-        <div class="container">
-            <header class="header">
-    <span class="header__inner">
-        <a href="/" style="text-decoration: none;">
-    <div class="logo">
-        
-            <span class="logo__mark">></span>
-            <span class="logo__text">Liga dos Programadores</span>
-            <span class="logo__cursor" style=""></span>
-        
-    </div>
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Liga dos Programadores</span>
+    <span class="logo__cursor"></span>
+  
 </a>
 
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/sobre">Sobre</a></li>
+        
+      
+      
+    
+  </ul>
 
-        <span class="header__right">
-            
-                <nav class="menu">
-    <ul class="menu__inner"><li><a href="/sobre">Sobre</a></li>
-    </ul>
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/sobre">Sobre</a></li>
+      
+    
+  </ul>
 </nav>
 
-                <span class="menu-trigger">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                        <path d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
-                    </svg>
-                </span>
-            
-
-            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
   13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
 </svg>
-</span>
-        </span>
+
+      </span>
     </span>
+  </span>
 </header>
 
 
-            <div class="content">
-                
-    <main class="post">
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/descentralizando-1-ipfs/">#descentralizando - 1. Conhecendo o IPFS</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            22/10/2019
+        </span>
+      
+      <span class="post-author">— Escrito por @ratsclub</span>
+      
+        <span class="post-read-time">— 5 minuto de leitura</span>
+      
+    </div>
 
-        <div class="post-info">
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>5 minutes
+    
 
-            
+    
+      
+        <img src="/ratsclub/descentralizando-1-ipfs/st-peters-basilica.jpg" class="post-cover" />
+      
+    
 
-            </p>
-        </div>
-
-        <article>
-            <h1 class="post-title"><a href="/posts/descentralizando-1-ipfs/">#descentralizando - 1. Conhecendo o IPFS</a></h1>
-
-            
-                <img src="/img/ratsclub/descentralizando-1-ipfs/st-peters-basilica.jpg" class="post-cover" />
-            
-
-            <div class="post-content">
-                
+    <div class="post-content">
+      
 
 <h2 id="ipfs-é-de-comer">IPFS? É de comer?</h2>
 
@@ -204,79 +206,63 @@ Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesqu
 
 <p>Sinta-se à vontade para me mandar uma mensagem no <a href="https://twitter.com/ratsclub">Twitter</a> ou para ler mais em <a href="https://docs.ipfs.io/">IPFS Documentation</a>.</p>
 
-            </div>
-        </article>
-
-        <hr />
-
-        <div class="post-info">
-
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>890 Words</p>
-
-            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-10-22 01:00 &#43;0100</p>
-        </div>
-
-        
-            <div class="pagination">
-                <div class="pagination__title">
-                    <span class="pagination__title-h">Leia outros posts</span>
-                    <hr />
-                </div>
-
-                <div class="pagination__buttons">
-                    
-
-                    
-                        <span class="button next">
-                            <a href="/posts/softwares-p2p/">
-                                <span class="button__text">Porque softwares P2P são importantes</span>
-                                <span class="button__icon">→</span>
-                            </a>
-                        </span>
-                    
-                </div>
-            </div>
-        
-
-        
-    </main>
-
-            </div>
-
-            
-                <footer class="footer">
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>&copy; 2019</span>
-            
-            <span></span>
-            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
-        </div>
     </div>
-    <div class="footer__inner">
-        <div class="footer__content">
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Leia outros posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+          
+            <span class="button next">
+              <a href="/posts/softwares-p2p/">
+                <span class="button__text">Porque softwares P2P são importantes</span>
+                <span class="button__icon">→</span>
+              </a>
+            </span>
+          
+        </div>
+      </div>
+    
 
-        </div>
+    
+
     </div>
-    <div class="footer__inner">
-        <div class="footer__content">
-            <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
-        </div>
-    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Liga dos Programadores</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
 </footer>
 
-            
-        </div>
-
-        
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
 
 
+      
+    </div>
 
-
-<script type="text/javascript" src="/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
-
-
-
-    </body>
+    
+  </body>
 </html>

@@ -1,236 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Posts on Liga dos Programadores</title>
-        <link>/posts/</link>
-        <description>Recent content in Posts on Liga dos Programadores</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>pt-br</language>
-        <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
-        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
-        
-        <item>
-            <title>#descentralizando - 1. Conhecendo o IPFS</title>
-            <link>/posts/descentralizando-1-ipfs/</link>
-            <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/descentralizando-1-ipfs/</guid>
-            <description>IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
+  <channel>
+    <title>Posts on Liga dos Programadores</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Liga dos Programadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>#descentralizando - 1. Conhecendo o IPFS</title>
+      <link>/posts/descentralizando-1-ipfs/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/descentralizando-1-ipfs/</guid>
+      <description>IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
 Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na Wikipedia que será algo como:
  https://en.wikipedia.org/wiki/Vincent_Van_Gogh
  Quando você colocar essa URL no seu navegador, você está pedindo para que um computador da Wikipedia lhe forneça a página sobre Vincent Van Gogh.</description>
-            <content type="html"><![CDATA[
-
-<h2 id="ipfs-é-de-comer">IPFS? É de comer?</h2>
-
-<p><a href="https://ipfs.io/">IPFS</a> é a sigla para <strong><em>Inter-Planetary File System</em></strong>. Trata-se de um sistema distribuído (<a href="https://pt.wikipedia.org/wiki/Peer-to-peer">Peer-to-Peer</a>) para armazenamento e acesso de arquivos, websites, aplicações e dados.</p>
-
-<p>Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na <a href="https://pt.wikipedia.org/">Wikipedia</a> que será algo como:</p>
-
-<blockquote>
-<p><a href="https://en.wikipedia.org/wiki/Vincent_Van_Gogh">https://en.wikipedia.org/wiki/Vincent_Van_Gogh</a></p>
-</blockquote>
-
-<p>Quando você colocar essa URL no seu navegador, você está pedindo para que um computador da Wikipedia lhe forneça a página sobre Vincent Van Gogh. Entretanto, essa não é a única opção para você saber mais sobre Vincent Van Gogh. Se você usa o IPFS, seu computador requisitará a página assim:</p>
-
-<blockquote>
-<p>/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Vincent_Van_Gogh.html</p>
-</blockquote>
-
-<p>O IPFS sabe onde buscar essa informação pelo seu conteúdo, não sua localização. A versão IPFS do artigo sobre Vincent Van Gogh é representada por aquele texto de letras e números no meio da URL (<em>QmXoy</em>&hellip;), e invés de pedir a um computador da Wikipedia por aquela página, seu computador utilizará o IPFS para pedir a página a todos os computadores do mundo que possuem essa página. Ele lhe trará as informações sobre Vincent Van Gogh de todas as pessoas que as tenha, não só dos computadores da Wikipedia.</p>
-
-<h2 id="por-que-isso-importa">Por que isso importa?</h2>
-
-<p>Tornar possível baixar um arquivo de muitos locais que não são gerenciados por uma única organização.</p>
-
-<ul>
-<li><p><strong>Uma internet resiliente.</strong> Se alguém derrubar os servidores da Wikipedia ou um engenheiro comete um grande erro que cause a queda dos servidores, você ainda conseguirá visualizar a página a partir de outra pessoa.</p></li>
-
-<li><p><strong>Dificulta a censura de conteúdo.</strong> Como os arquivos no IPFS podem vir de diversos lugares, é bem difícil para que qualquer um (mesmo que sejam estados, corporações ou qualquer outra pessoa) bloquear coisas. Em 2017, a Turquia bloqueou a Wikipedia e a Espanha bloqueou websites relacionados ao movimento de independência da Catalunha.</p></li>
-
-<li><p><strong>Pode acelerar a web quando você está distante ou desconectado.</strong> Se você consegue um arquivo de alguém próximo ao invés de alguém a milhares de quilômetros de distância, claramente tornará o processo mais rápido. Isso é especialmente valioso se sua comunidade tem uma rede local (os computadores são interligados), mas não possue uma boa conexão à internet. (Organizações com grande poder aquisitivo e conhecimento técnico fazem isso hoje em dia utilizando múltiplos bancos de dados e servidores que fornecem conteúdos estáticos (fotos, vídeos, textos&hellip;). IPFS quer tornar isso possível para todos.)</p></li>
-</ul>
-
-<h2 id="mas-de-onde-saiu-esse-nome">Mas de onde saiu esse nome?</h2>
-
-<p>De acordo com o projeto, há o esforço de construir um sistema que funcione através de lugares tão desconectados ou tão distantes quanto planetas. Por isso o nome <strong><em>Inter-Planetary File System</em></strong>.</p>
-
-<h2 id="chega-de-enrolação-quero-saber-como-funciona">Chega de enrolação! Quero saber como funciona!</h2>
-
-<p>Você viu um pouco sobre os conceitos e ideias do IPFS. Agora abordaremos alguns dos princípios básicos do sistema.</p>
-
-<h2 id="links-não-mudam-no-ipfs">Links não mudam no IPFS</h2>
-
-<p>Sobre o link da página do Vincent Van Gogh que vimos acima. Parece meio estranho, não?</p>
-
-<blockquote>
-<p>/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Vincent_Van_Gogh.html</p>
-</blockquote>
-
-<p>Esse amontoado de letras após <em>/ipfs/</em> é chamado de <strong>identificador de conteúdo</strong> e é como o IPFS consegue conteúdos de diversos lugares.</p>
-
-<p>URLS e caminhos de arquivos tradicionais como&hellip;</p>
-
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Vincent_Van_Gogh">https://en.wikipedia.org/wiki/Vincent_Van_Gogh</a></li>
-<li>/Users/Joao/Documents/file.doc</li>
-<li>C:\Users\Joao\My Documents\apresentacao.ppt</li>
-</ul>
-
-<p>&hellip;identificam um arquivo onde está localizado - em qual computador e em qual pasta de seu disco rígido ele está. Isso não funciona se o arquivo está em diversos lugares como o computador do seu vizinho ou daquele seu amigo de outro estado.</p>
-
-<p>Entretanto, o IPFS não se baseia na localização do arquivo e, sim no conteúdo do arquivo. O identificador de conteúdo nada mais é do que um identificador único do conteúdo do arquivo. Todavia, como o endereço de um arquivo é criado a partir de seu conteúdo, links no IPFS não podem ser alterados.</p>
-
-<p>Claro que pessoas querem atualizar arquivo e mudar seus conteúdos o tempo todo. Contudo, não querem ter que enviar um novo link toda vez que o arquivo fora alterado. Isso é totalmente possível no universo IPFS, mas esse artigo não entrará em detalhes sobre isso.</p>
-
-<p>É importante lembrar que usar o IPFS é completamente participativo e colaborativo. Se ninguém que utiliza o IPFS tem um arquivo com certo identificador para os outros acessarem, você não poderá obtê-lo. No entanto, nada pode ser removido do IPFS enquanto alguém tenha interesse o bastante de mantê-lo disponível.</p>
-
-<h2 id="é-tudo-sobre-posse-e-participação">É tudo sobre posse e participação</h2>
-
-<p>Enquanto há muita coisa complexa por debaixo do capô do IPFS, as ideias fundamentais são sobre mudar como as redes de pessoas e computadores se comunicam. Hoje a internet é estruturada em cima de propriedade e acesso, isso é, você obtém arquivos de quem os possui - isso se eles te garantirem o acesso. IPFS é baseado na idea de posse e participação, ou seja, muitas pessoas possuem os arquivos uns dos outros e participam em mantê-los disponíveis.</p>
-
-<p>Isso significa que IPFS só funciona bem quando pessoas estão participando de forma ativa. Se você usa o seu computador para compartilhar arquivos usando o IPFS, ao desligá-lo, outras pessoas não serão capazes de obter esses arquivos de você. Porém o IPFS já dispõe desse tipo de compartilhamento, você pode combinar com amigos ou fazer parcerias com instituições (por exemplo: museus e bibliotecas podem vir a trabalhar em conjuto) para compartilhar os arquivos uns dos outros.</p>
-
-<h2 id="ainda-tenho-dúvidas">Ainda tenho dúvidas</h2>
-
-<p>Sinta-se à vontade para me mandar uma mensagem no <a href="https://twitter.com/ratsclub">Twitter</a> ou para ler mais em <a href="https://docs.ipfs.io/">IPFS Documentation</a>.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Porque softwares P2P são importantes</title>
-            <link>/posts/softwares-p2p/</link>
-            <pubDate>Mon, 21 Oct 2019 00:14:17 +0100</pubDate>
-            
-            <guid>/posts/softwares-p2p/</guid>
-            <description>P2P significa Peer-to-Peer ou Ponto-a-Ponto. Em uma rede P2P os &amp;ldquo;pontos&amp;rdquo; estão conectados entre si através da Internet. Isso quer dizer que podem compartilhar dados uns com os outros sem a necessidade de um servidor central. Softwares P2P já fazem parte de nossas vidas há muito tempo, entre algum deles estão algumas relíquias: Ares Galaxy, uTorrent e Kazaa.
+    </item>
+    
+    <item>
+      <title>Porque softwares P2P são importantes</title>
+      <link>/posts/softwares-p2p/</link>
+      <pubDate>Mon, 21 Oct 2019 00:14:17 +0100</pubDate>
+      
+      <guid>/posts/softwares-p2p/</guid>
+      <description>P2P significa Peer-to-Peer ou Ponto-a-Ponto. Em uma rede P2P os &amp;ldquo;pontos&amp;rdquo; estão conectados entre si através da Internet. Isso quer dizer que podem compartilhar dados uns com os outros sem a necessidade de um servidor central. Softwares P2P já fazem parte de nossas vidas há muito tempo, entre algum deles estão algumas relíquias: Ares Galaxy, uTorrent e Kazaa.
 Aqui estão alguns motivos do porque softwares P2P de código-aberto são importantes:</description>
-            <content type="html"><![CDATA[
-
-<p>P2P significa <em>Peer-to-Peer</em> ou <em>Ponto-a-Ponto</em>. Em uma rede P2P os &ldquo;pontos&rdquo; estão conectados entre si através da Internet. Isso quer dizer que podem compartilhar dados uns com os outros sem a necessidade de um servidor central. Softwares P2P já fazem parte de nossas vidas há muito tempo, entre algum deles estão algumas relíquias: <a href="https://aresgalaxy.io/">Ares Galaxy</a>, <a href="https://www.utorrent.com/">uTorrent</a> e <a href="https://en.wikipedia.org/wiki/Kazaa">Kazaa</a>.</p>
-
-<p>Aqui estão alguns motivos do porque softwares P2P de código-aberto são importantes:</p>
-
-<h2 id="1-igualdade">1. Igualdade</h2>
-
-<p>Tecnologia é intrínsecamente neutra e isso é amplificado com softwares P2P. Ele não liga para sua nacionalidade, sua etnia, seu gênero, quanto dinheiro possui e qual o seu trabalho. Enquanto seguir as regras do protocolo você está autorizado a utilizá-lo. Isso nos traz um nível sem precendentes de igualdade.</p>
-
-<h2 id="2-resiliência">2. Resiliência</h2>
-
-<p>A natureza descentralizada do software P2P proporciona uma rede incrivelmente resiliente. Já que não há servidores centrais, essas redes são impossíveis de serem derrubadas. À medida que ainda existam &ldquo;pontos&rdquo; ativos em qualquer lugar do mundo, a rede continuará ativa.</p>
-
-<h2 id="3-liberdade-de-expressão">3. Liberdade de expressão</h2>
-
-<p>Os protocolos P2P permitem que as pessoas se comuniquem, façam negócios e compartilhem informações sem que haja alguém ditando o que é e o que não é permitido. Essa é a verdadeira liberdade de expressão.</p>
-
-<h2 id="4-abertura">4. Abertura</h2>
-
-<p>Muitos projetos P2P são código-aberto. Isso significa que há um nível de transparência e prestação de contas que você não vê em outras partes da sociedade. Qualquer um que queira pode olhar o código e verificar se não há vulnerabilidades ou instruções maldosas escondidas no código. Ou seja, caso alguém tente injetar códigos maliciosos, eles seriam prontamente rejeitados.</p>
-
-<h2 id="5-privacidade">5. Privacidade</h2>
-
-<p>Esses sistemas podem fazer uso de criptografia ponto-a-ponto, fazendo atos de espionagem muito mais difíceis - se não impossíveis.
-E como as chaves utilizadas para acessar a rede são de manuseio exclusivo do usuário e não de um servidor central, grandes vazamentos de dados como números de cartões de crédito e documentos pessoais são impossíveis de acontecer.</p>
-
-<h1 id="conclusão">Conclusão</h1>
-
-<p>Nós já estamos vendo tecnologias como Bitcoin e Bittorrent mudarem como as coisas funcionam. E isso é só o começo, logo veremos projetos P2P nos mais variados aspectos de nossas vidas, finanças, comunicação, armazenamento, compartilhamento de arquivos e muito mais.</p>
-]]></content>
-        </item>
-        
-        <item>
-            <title>Rodando IPFS com Docker</title>
-            <link>/posts/rodando-ipfs-no-docker/</link>
-            <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
-            
-            <guid>/posts/rodando-ipfs-no-docker/</guid>
-            <description>Esse tutorial fora escrito utilizando o Debian na versão 10.
+    </item>
+    
+    <item>
+      <title>Rodando IPFS com Docker</title>
+      <link>/posts/rodando-ipfs-no-docker/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rodando-ipfs-no-docker/</guid>
+      <description>Esse tutorial fora escrito utilizando o Debian na versão 10.
 Muitas vezes quero utilizar o IPFS, entretanto não quero me preocupar em instalar a linguagem Go e muito menos em com a ferramenta ipfs_version.
 Instalando o Docker A instalação do docker é bem simples e pode ser feita através do seguinte link.
 Configurando o container  Crie diretórios para o IPFS
 $ mkdir -p ~/.ipfs/staging  Crie o seguinte script onde preferir</description>
-            <content type="html"><![CDATA[
-
-<p>Esse tutorial fora escrito utilizando o Debian na versão 10.</p>
-
-<p>Muitas vezes quero utilizar o <a href="https://ipfs.io/ipns/ipfs.io/">IPFS</a>, entretanto não quero me preocupar em instalar a linguagem <a href="https://golang.org/">Go</a> e muito menos em com a ferramenta <code>ipfs_version</code>.</p>
-
-<h2 id="instalando-o-docker">Instalando o Docker</h2>
-
-<p>A instalação do docker é bem simples e pode ser feita através do seguinte <a href="https://docs.docker.com/install/linux/docker-ce/debian/">link</a>.</p>
-
-<h2 id="configurando-o-container">Configurando o container</h2>
-
-<ol>
-<li><p>Crie diretórios para o IPFS</p>
-
-<pre><code class="language-bash">$ mkdir -p ~/.ipfs/staging
-</code></pre></li>
-
-<li><p>Crie o seguinte script onde preferir</p>
-
-<pre><code class="language-bash">#!/bin/bash
-
-export ipfs_staging=/home/[SEU DIRETORIO HOME]/.ipfs/staging
-export ipfs_data=/home/[SEU DIRETORIO HOME]/.ipfs
-
-docker run -d --init \
-    --restart unless-stopped \
-    --name ipfs_host \
-    -v $ipfs_staging:/export \
-    -v $ipfs_data:/data/ipfs \
-    -w /export \
-    -p 4001:4001 \
-    -p 127.0.0.1:8080:8080 \
-    -p 127.0.0.1:5001:5001 \
-    ipfs/go-ipfs:v0.4.18
-</code></pre></li>
-</ol>
-
-<p>Vamos entender esses comandos.</p>
-
-<ul>
-<li><p><code>-d</code>: Roda o container no estado &ldquo;avulso&rdquo;.</p></li>
-
-<li><p><code>--restart unless-stopped</code>: Esse comando habilita o restart automático do container quando não parado, mas também nos tráz o recurso da inicialização do container no boot.</p></li>
-
-<li><p><code>--name ipfs_host</code>: Determina o nome do container. Você pode colocar o nome que desejar.</p></li>
-
-<li><p><code>-v $ipfs_staging:/export</code> e <code>-v $ipfs_data:/data/ipfs</code>: Montam volumes. Esse comando mapeia os diretórios <code>$ipfs_staging</code> e <code>$ipfs_data</code> da sua máquina local para os diretórios <code>~/.ipfs</code> e <code>/export</code> do container.</p></li>
-
-<li><p><code>-w /export</code>: O diretório de &ldquo;trabalho&rdquo; dentro do container.</p></li>
-
-<li><p><code>-p 4001:4001</code>: Expõe a porta 4001 - necessária para o swarming - para o mundo.</p></li>
-
-<li><p><code>-p 127.0.0.1:8080:8080</code> e <code>-p 127.0.0.1:5001:5001</code>: Expõem as portas 8080 (gateway) e 5001 (API) somente de forma local.</p></li>
-
-<li><p><code>ipfs/go-ipfs:latest</code>: O nome da imagem do container.</p></li>
-</ul>
-
-<h2 id="o-que-é-esse-diretório-staging">O que é esse diretório &ldquo;staging&rdquo;?</h2>
-
-<p>O diretório staging é como um sandbox para você rodar comandos IPFS. Esse diretório é compartilhado entre a máquina host e o container. Veja a seção a seguir para ver como rodar comandos como <code>ipfs add</code> e <code>ipfs get</code>.</p>
-
-<h2 id="usando-o-container">Usando o Container</h2>
-
-<p>Adicione essa função para o seu arquivo <code>~/.bash_aliases</code> file, or similar:</p>
-
-<pre><code class="language-bash">function ipfs() {
-  docker exec ipfs_host ipfs &quot;$@&quot;
-}
-</code></pre>
-
-<p>Então você poderá rodar comandos como <code>ipfs add</code> e <code>ipfs_get</code>.</p>
-
-<p><strong><em>Nota</em></strong><em>: Se você alterou o nome do seu container, altere-o aqui também.</em></p>
-
-<h2 id="removendo-o-container">Removendo o container</h2>
-
-<pre><code class="language-bash">$ docker stop ipfs_host # ou o nome que você colocou em seu container
-$ docker rmi ipfs/go-ipfs
-$ rm -rf ~/.ipfs
-</code></pre>
-]]></content>
-        </item>
-        
-    </channel>
+    </item>
+    
+  </channel>
 </rss>
