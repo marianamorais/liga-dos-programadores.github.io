@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>Rodando IPFS com Docker :: Liga dos Programadores — Blog</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Esse tutorial fora escrito utilizando o Debian na versão 10.
+Muitas vezes quero utilizar o IPFS, entretanto não quero me preocupar em instalar a linguagem Go e muito menos em com a ferramenta ipfs_version.
+Instalando o Docker A instalação do docker é bem simples e pode ser feita através do seguinte link.
+Configurando o container  Crie diretórios para o IPFS
+$ mkdir -p ~/.ipfs/staging  Crie o seguinte script onde preferir"/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/posts/rodando-ipfs-no-docker/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Rodando IPFS com Docker"/>
+<meta name="twitter:description" content="Como rodar IPFS com Docker em menos de 5 minutos"/>
+
+
+
+<meta property="og:title" content="Rodando IPFS com Docker" />
+<meta property="og:description" content="Como rodar IPFS com Docker em menos de 5 minutos" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/rodando-ipfs-no-docker/" />
+<meta property="article:published_time" content="2019-10-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-10-19T00:00:00+00:00" /><meta property="og:site_name" content="Liga dos Programadores" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Liga dos Programadores</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/sobre">Sobre</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/sobre">Sobre</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/posts/rodando-ipfs-no-docker/">Rodando IPFS com Docker</a></h2>
+    <div class="post-meta">
+      
+        <span class="post-date">
+            19/10/2019
+        </span>
+      
+      <span class="post-author">— Escrito por @ratsclub</span>
+      
+        <span class="post-read-time">— 2 minuto de leitura</span>
+      
+    </div>
+
+    
+
+    
+      
+        <img src="/ratsclub/rodando-ipfs-no-docker/boat.jpg" class="post-cover" />
+      
+    
+
+    <div class="post-content">
+      
+
+<p>Esse tutorial fora escrito utilizando o Debian na versão 10.</p>
+
+<p>Muitas vezes quero utilizar o <a href="https://ipfs.io/ipns/ipfs.io/">IPFS</a>, entretanto não quero me preocupar em instalar a linguagem <a href="https://golang.org/">Go</a> e muito menos em com a ferramenta <code>ipfs_version</code>.</p>
+
+<h2 id="instalando-o-docker">Instalando o Docker</h2>
+
+<p>A instalação do docker é bem simples e pode ser feita através do seguinte <a href="https://docs.docker.com/install/linux/docker-ce/debian/">link</a>.</p>
+
+<h2 id="configurando-o-container">Configurando o container</h2>
+
+<ol>
+<li><p>Crie diretórios para o IPFS</p>
+
+<pre><code class="language-bash">$ mkdir -p ~/.ipfs/staging
+</code></pre></li>
+
+<li><p>Crie o seguinte script onde preferir</p>
+
+<pre><code class="language-bash">#!/bin/bash
+
+export ipfs_staging=/home/[SEU DIRETORIO HOME]/.ipfs/staging
+export ipfs_data=/home/[SEU DIRETORIO HOME]/.ipfs
+
+docker run -d --init \
+    --restart unless-stopped \
+    --name ipfs_host \
+    -v $ipfs_staging:/export \
+    -v $ipfs_data:/data/ipfs \
+    -w /export \
+    -p 4001:4001 \
+    -p 127.0.0.1:8080:8080 \
+    -p 127.0.0.1:5001:5001 \
+    ipfs/go-ipfs:v0.4.18
+</code></pre></li>
+</ol>
+
+<p>Vamos entender esses comandos.</p>
+
+<ul>
+<li><p><code>-d</code>: Roda o container no estado &ldquo;avulso&rdquo;.</p></li>
+
+<li><p><code>--restart unless-stopped</code>: Esse comando habilita o restart automático do container quando não parado, mas também nos tráz o recurso da inicialização do container no boot.</p></li>
+
+<li><p><code>--name ipfs_host</code>: Determina o nome do container. Você pode colocar o nome que desejar.</p></li>
+
+<li><p><code>-v $ipfs_staging:/export</code> e <code>-v $ipfs_data:/data/ipfs</code>: Montam volumes. Esse comando mapeia os diretórios <code>$ipfs_staging</code> e <code>$ipfs_data</code> da sua máquina local para os diretórios <code>~/.ipfs</code> e <code>/export</code> do container.</p></li>
+
+<li><p><code>-w /export</code>: O diretório de &ldquo;trabalho&rdquo; dentro do container.</p></li>
+
+<li><p><code>-p 4001:4001</code>: Expõe a porta 4001 - necessária para o swarming - para o mundo.</p></li>
+
+<li><p><code>-p 127.0.0.1:8080:8080</code> e <code>-p 127.0.0.1:5001:5001</code>: Expõem as portas 8080 (gateway) e 5001 (API) somente de forma local.</p></li>
+
+<li><p><code>ipfs/go-ipfs:latest</code>: O nome da imagem do container.</p></li>
+</ul>
+
+<h2 id="o-que-é-esse-diretório-staging">O que é esse diretório &ldquo;staging&rdquo;?</h2>
+
+<p>O diretório staging é como um sandbox para você rodar comandos IPFS. Esse diretório é compartilhado entre a máquina host e o container. Veja a seção a seguir para ver como rodar comandos como <code>ipfs add</code> e <code>ipfs get</code>.</p>
+
+<h2 id="usando-o-container">Usando o Container</h2>
+
+<p>Adicione essa função para o seu arquivo <code>~/.bash_aliases</code> file, or similar:</p>
+
+<pre><code class="language-bash">function ipfs() {
+  docker exec ipfs_host ipfs &quot;$@&quot;
+}
+</code></pre>
+
+<p>Então você poderá rodar comandos como <code>ipfs add</code> e <code>ipfs_get</code>.</p>
+
+<p><strong><em>Nota</em></strong><em>: Se você alterou o nome do seu container, altere-o aqui também.</em></p>
+
+<h2 id="removendo-o-container">Removendo o container</h2>
+
+<pre><code class="language-bash">$ docker stop ipfs_host # ou o nome que você colocou em seu container
+$ docker rmi ipfs/go-ipfs
+$ rm -rf ~/.ipfs
+</code></pre>
+
+    </div>
+    
+      <div class="pagination">
+        <div class="pagination__title">
+          <span class="pagination__title-h">Leia outros posts</span>
+          <hr />
+        </div>
+        <div class="pagination__buttons">
+          
+            <span class="button previous">
+              <a href="/posts/softwares-p2p/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Porque softwares P2P são importantes</span>
+              </a>
+            </span>
+          
+          
+        </div>
+      </div>
+    
+
+    
+
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">Liga dos Programadores</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
