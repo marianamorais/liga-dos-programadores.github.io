@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>crypto on Liga dos Programadores</title>
+    <link>/tags/crypto/</link>
+    <description>Recent content in crypto on Liga dos Programadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 03 Nov 2019 01:46:19 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Nano #2: Seeds e chaves</title>
+      <link>/posts/nano-2-seeds-e-chaves/</link>
+      <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
+      
+      <guid>/posts/nano-2-seeds-e-chaves/</guid>
+      <description>Resumo Nano utiliza um sistema de chaves públicas e privadas para mandar e receber blocos, em outras palavras: &amp;ldquo;Suas chaves, seu Nano. Não são suas chaves, não é seu Nano&amp;rdquo;.
+Uma seed é um longo número que pode ser usado para gerar diversas chaves privadas, com isso em mente, um endereço (leia-se conta) Nano é somente uma chave pública com um checksum que são interligados com a chave privada original.</description>
+    </item>
+    
+    <item>
+      <title>Nano #1: Guia rápido e prático para Nano</title>
+      <link>/posts/nano-1-guia-rapido-e-pratico-para-nano/</link>
+      <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
+      
+      <guid>/posts/nano-1-guia-rapido-e-pratico-para-nano/</guid>
+      <description>Introdução O foco desse guia é introduzí-lo ao Nano para que você possa ter — em alguns minutos — uma primeira impressão do que se trata essa incrível tecnologia.
+Mas o que diabos é Nano? Nano é uma moeda digital extremamente rápida e sem taxas. Nano também é descentralizada, ou seja, não há nenhuma entidade financeira a controlando e manipulando.
+Obtendo uma carteira Para início de conversa você precisa de uma carteira.</description>
+    </item>
+    
+  </channel>
+</rss>
