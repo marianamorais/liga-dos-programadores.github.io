@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Liga dos Programadores</title>
@@ -6,13 +6,24 @@
     <description>Recent content on Liga dos Programadores</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 23:59:26 -0700</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#descentralizando - 1. Conhecendo o IPFS</title>
+      <title>Nano #1: Guia rápido e prático para Nano</title>
+      <link>/posts/nano-1-guia-rapido-e-pratico-para-nano/</link>
+      <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
+      
+      <guid>/posts/nano-1-guia-rapido-e-pratico-para-nano/</guid>
+      <description>Introdução O foco desse guia é introduzí-lo ao Nano para que você possa ter — em alguns minutos — uma primeira impressão do que se trata essa incrível tecnologia.
+Mas o que diabos é Nano? Nano é uma moeda digital extremamente rápida e sem taxas. Nano também é descentralizada, ou seja, não há nenhuma entidade financeira a controlando e manipulando.
+Obtendo uma carteira Para início de conversa você precisa de uma carteira.</description>
+    </item>
+    
+    <item>
+      <title>Conhecendo o IPFS</title>
       <link>/posts/descentralizando-1-ipfs/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       

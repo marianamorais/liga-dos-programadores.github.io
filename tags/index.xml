@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Liga dos Programadores</title>
@@ -6,9 +6,46 @@
     <description>Recent content in Tags on Liga dos Programadores</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
+    <lastBuildDate>Sat, 02 Nov 2019 23:59:26 -0700</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>crypto</title>
+      <link>/tags/crypto/</link>
+      <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
+      
+      <guid>/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nano</title>
+      <link>/tags/nano/</link>
+      <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
+      
+      <guid>/tags/nano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p2p</title>
+      <link>/tags/p2p/</link>
+      <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
+      
+      <guid>/tags/p2p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipfs</title>
+      <link>/tags/ipfs/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ipfs/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

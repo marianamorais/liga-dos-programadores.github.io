@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Liga dos Programadores</title>
-    <link>/posts/</link>
-    <description>Recent content in Posts on Liga dos Programadores</description>
+    <title>p2p on Liga dos Programadores</title>
+    <link>/tags/p2p/</link>
+    <description>Recent content in p2p on Liga dos Programadores</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <lastBuildDate>Sat, 02 Nov 2019 23:59:26 -0700</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/p2p/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
