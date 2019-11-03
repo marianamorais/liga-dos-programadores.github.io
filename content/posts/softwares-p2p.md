@@ -2,7 +2,7 @@
 title: "Porque softwares P2P são importantes"
 date: 2019-10-21T00:14:17+01:00
 author: "@ratsclub"
-cover: "ratsclub/softwares-p2p/cables.png"
+cover: "ratsclub/softwares-p2p/cover.jpg"
 description: "E eles são mais comuns do que você imagina"
 tags:
 - p2p
