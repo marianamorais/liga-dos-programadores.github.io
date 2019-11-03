@@ -2,7 +2,7 @@
 title: "Nano #1: Guia rápido e prático para Nano"
 date: 2019-11-02T23:59:26-07:00
 author: "@ratsclub"
-cover: "ratsclub/nano-1-guia-rapido-e-pratico-para-nano/nano.png"
+cover: "ratsclub/nano-1-guia-rapido-e-pratico-para-nano/cover.jpg"
 description: "Não sabe por onde começar? Então esse guia é para você!"
 tags:
 - nano

@@ -2,7 +2,7 @@
 title: "Rodando IPFS com Docker"
 date: "2019-10-19"
 author: "@ratsclub"
-cover: "ratsclub/rodando-ipfs-no-docker/boat.jpg"
+cover: "ratsclub/rodando-ipfs-no-docker/cover.jpg"
 description: "Como rodar IPFS com Docker em menos de 5 minutos"
 tags:
 - ipfs
