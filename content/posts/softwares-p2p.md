@@ -1,10 +1,12 @@
-+++
-title = "Porque softwares P2P são importantes"
-date = 2019-10-21T00:14:17+01:00
-author = "@ratsclub"
-cover = "ratsclub/softwares-p2p/cables.png"
-description = "E eles são mais comuns do que você imagina"
-+++
+---
+title: "Porque softwares P2P são importantes"
+date: 2019-10-21T00:14:17+01:00
+author: "@ratsclub"
+cover: "ratsclub/softwares-p2p/cables.png"
+description: "E eles são mais comuns do que você imagina"
+tags:
+- p2p
+---
 
 P2P significa *Peer-to-Peer* ou *Ponto-a-Ponto*. Em uma rede P2P os "pontos" estão conectados entre si através da Internet. Isso quer dizer que podem compartilhar dados uns com os outros sem a necessidade de um servidor central. Softwares P2P já fazem parte de nossas vidas há muito tempo, entre algum deles estão algumas relíquias: [Ares Galaxy](https://aresgalaxy.io/), [uTorrent](https://www.utorrent.com/) e [Kazaa](https://en.wikipedia.org/wiki/Kazaa).
 
@@ -34,3 +36,15 @@ E como as chaves utilizadas para acessar a rede são de manuseio exclusivo do us
 # Conclusão
 
 Nós já estamos vendo tecnologias como Bitcoin e Bittorrent mudarem como as coisas funcionam. E isso é só o começo, logo veremos projetos P2P nos mais variados aspectos de nossas vidas, finanças, comunicação, armazenamento, compartilhamento de arquivos e muito mais.
+
+---
+
+## Me ajude com um café ☕
+
+**BTC**: [bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0](bitcoin:bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0)
+
+**BCH**: [qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k](bitcoincash:qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k)
+
+**ETH**: [0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E](ethereum:0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E)
+
+**NANO**: [nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw](nano:nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw)

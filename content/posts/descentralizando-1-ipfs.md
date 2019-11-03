@@ -1,10 +1,13 @@
-+++
-title = "#descentralizando - 1. Conhecendo o IPFS"
-date = "2019-10-22"
-author = "@ratsclub"
-cover = "ratsclub/descentralizando-1-ipfs/st-peters-basilica.jpg"
-description = "Conhecendo o IPFS e seus conceitos"
-+++
+---
+title: "Conhecendo o IPFS"
+date: "2019-10-22"
+author: "@ratsclub"
+cover: "ratsclub/descentralizando-1-ipfs/st-peters-basilica.jpg"
+description: "Conhecendo o IPFS e seus conceitos"
+tags:
+- ipfs
+- p2p
+---
 
 ## IPFS? É de comer?
 
@@ -69,3 +72,15 @@ Isso significa que IPFS só funciona bem quando pessoas estão participando de f
 ## Ainda tenho dúvidas
 
 Sinta-se à vontade para me mandar uma mensagem no [Twitter](https://twitter.com/ratsclub) ou para ler mais em [IPFS Documentation](https://docs.ipfs.io/).
+
+---
+
+## Me ajude com um café ☕
+
+**BTC**: [bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0](bitcoin:bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0)
+
+**BCH**: [qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k](bitcoincash:qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k)
+
+**ETH**: [0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E](ethereum:0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E)
+
+**NANO**: [nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw](nano:nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw)
