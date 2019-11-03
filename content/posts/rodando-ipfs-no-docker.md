@@ -1,10 +1,13 @@
-+++
-title = "Rodando IPFS com Docker"
-date = "2019-10-19"
-author = "@ratsclub"
-cover = "ratsclub/rodando-ipfs-no-docker/boat.jpg"
-description = "Como rodar IPFS com Docker em menos de 5 minutos"
-+++
+---
+title: "Rodando IPFS com Docker"
+date: "2019-10-19"
+author: "@ratsclub"
+cover: "ratsclub/rodando-ipfs-no-docker/boat.jpg"
+description: "Como rodar IPFS com Docker em menos de 5 minutos"
+tags:
+- ipfs
+- p2p
+---
 
 Esse tutorial fora escrito utilizando o Debian na versão 10.
 
@@ -81,3 +84,15 @@ $ docker stop ipfs_host # ou o nome que você colocou em seu container
 $ docker rmi ipfs/go-ipfs
 $ rm -rf ~/.ipfs
 ```
+
+---
+
+## Me ajude com um café ☕
+
+**BTC**: [bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0](bitcoin:bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0)
+
+**BCH**: [qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k](bitcoincash:qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k)
+
+**ETH**: [0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E](ethereum:0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E)
+
+**NANO**: [nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw](nano:nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw)
