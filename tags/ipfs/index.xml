@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ipfs on Liga dos Programadores</title>
+    <link>/tags/ipfs/</link>
+    <description>Recent content in ipfs on Liga dos Programadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Tue, 22 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Conhecendo o IPFS</title>
+      <link>/posts/descentralizando-1-ipfs/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/descentralizando-1-ipfs/</guid>
+      <description>IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
+Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na Wikipedia que será algo como:
+ https://en.wikipedia.org/wiki/Vincent_Van_Gogh
+ Quando você colocar essa URL no seu navegador, você está pedindo para que um computador da Wikipedia lhe forneça a página sobre Vincent Van Gogh.</description>
+    </item>
+    
+    <item>
+      <title>Rodando IPFS com Docker</title>
+      <link>/posts/rodando-ipfs-no-docker/</link>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/rodando-ipfs-no-docker/</guid>
+      <description>Esse tutorial fora escrito utilizando o Debian na versão 10.
+Muitas vezes quero utilizar o IPFS, entretanto não quero me preocupar em instalar a linguagem Go e muito menos em com a ferramenta ipfs_version.
+Instalando o Docker A instalação do docker é bem simples e pode ser feita através do seguinte link.
+Configurando o container  Crie diretórios para o IPFS
+$ mkdir -p ~/.ipfs/staging  Crie o seguinte script onde preferir</description>
+    </item>
+    
+  </channel>
+</rss>
