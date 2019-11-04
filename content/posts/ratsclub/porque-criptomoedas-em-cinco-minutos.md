@@ -10,7 +10,7 @@ tags:
 - nano
 - p2p
 - crypto
-draft: true
+draft: false
 ---
 
 Mesmo que as criptomoedas sejão mais vistas como um ativo especulativo — fique rico rápido —, elas têm propriedades valiosas e casos de uso valiosos.
@@ -37,11 +37,20 @@ Criptomoedas podem ser usadas por qualquer um. É para negócios que não podem 
 
 Enquanto houver conexão com a internet você pode mandar dinheiro para qualquer lugar, basicamente instantaneamente e de graça. Elas não são vinculadas a um governo, país ou região e podem ser usadas em qualquer lugar.
 
+## Manipulação monetária reduzida
 
-É claro que criptomoedas não resolvem todos os problemas, em particular, elas ainda sofrem com a adoção e a volatilidade do preço. E como todo tecnologia, elas serão associadas com uma mudança positiva ou negativa.
+Não há uma autoridade central que possa aumentar a oferta como queira ou para invalidar as moedas que você possui. Isso tira o poder do estado sobre o dinheiro e o devolve às pessoas.
+
+## Privacidade financeira
+
+Bancos, empresas de cartões de crédito e processadores de pagamentos têm seu histórico de transações. Criptomoedas permitem que você recupere boa parte de sua privacidade.[^3]
+
+
+É claro que as criptomoedas não resolvem todos os problemas, em particular, elas ainda sofrem com a adoção e a volatilidade do preço. E como todo tecnologia, elas serão associadas com uma mudança positiva ou negativa.
 
 [^1]: Se você ouviu falar das taxas ridiculamente altas do Bitcoin, não se preocupe — é a exceção, não a regra.
 [^2]: Essa fraude é conhecida como *charge back*.
+[^3]: Bitcoin (e a maioria das criptomoedas) são pseudo-anônimas. Existem outras criptomoedas — como Monero — que melhoram essa situação.
 
 ---
 
