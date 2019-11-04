@@ -1,8 +1,8 @@
 ---
 title: "Conhecendo o IPFS"
 date: "2019-10-22"
-author: "@ratsclub"
-cover: "ratsclub/descentralizando-1-ipfs/st-peters-basilica.jpg"
+author: "ratsclub"
+cover: "ratsclub/conhecendo-ipfs/st-peters-basilica.jpg"
 description: "Conhecendo o IPFS e seus conceitos"
 tags:
 - ipfs
