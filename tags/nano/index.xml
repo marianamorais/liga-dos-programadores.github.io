@@ -13,23 +13,34 @@
     
     <item>
       <title>Nano #2: Seeds e chaves</title>
-      <link>/posts/nano-2-seeds-e-chaves/</link>
+      <link>/posts/ratsclub/nano-2-seeds-e-chaves/</link>
       <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
       
-      <guid>/posts/nano-2-seeds-e-chaves/</guid>
+      <guid>/posts/ratsclub/nano-2-seeds-e-chaves/</guid>
       <description>Resumo Nano utiliza um sistema de chaves públicas e privadas para mandar e receber blocos, em outras palavras: &amp;ldquo;Suas chaves, seu Nano. Não são suas chaves, não é seu Nano&amp;rdquo;.
 Uma seed é um longo número que pode ser usado para gerar diversas chaves privadas, com isso em mente, um endereço (leia-se conta) Nano é somente uma chave pública com um checksum que são interligados com a chave privada original.</description>
     </item>
     
     <item>
       <title>Nano #1: Guia rápido e prático para Nano</title>
-      <link>/posts/nano-1-guia-rapido-e-pratico-para-nano/</link>
+      <link>/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/</link>
       <pubDate>Sat, 02 Nov 2019 23:59:26 -0700</pubDate>
       
-      <guid>/posts/nano-1-guia-rapido-e-pratico-para-nano/</guid>
+      <guid>/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/</guid>
       <description>Introdução O foco desse guia é introduzí-lo ao Nano para que você possa ter — em alguns minutos — uma primeira impressão do que se trata essa incrível tecnologia.
 Mas o que diabos é Nano? Nano é uma moeda digital extremamente rápida e sem taxas. Nano também é descentralizada, ou seja, não há nenhuma entidade financeira a controlando e manipulando.
 Obtendo uma carteira Para início de conversa você precisa de uma carteira.</description>
+    </item>
+    
+    <item>
+      <title>Porque criptomoedas em cinco minutos</title>
+      <link>/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</link>
+      <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
+      
+      <guid>/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</guid>
+      <description>Mesmo que as criptomoedas sejão mais vistas como um ativo especulativo — fique rico rápido —, elas têm propriedades valiosas e casos de uso valiosos.
+Pagamentos mais baratos Comerciantes precisam pagar 1-4% de taxas para cada transação que envolva cartões de crédito. Transações com criptomoedas possuem somente uma pequena taxa fixa.1
+Liquída mais rápido Você recebe o dinheiro em menos de uma hora, enquanto outros pagamentos digitais — que também podem ser revertidos semanas ou meses depois — levam dias.</description>
     </item>
     
   </channel>
