@@ -13,10 +13,10 @@
     
     <item>
       <title>Conhecendo o IPFS</title>
-      <link>/posts/descentralizando-1-ipfs/</link>
+      <link>/posts/ratsclub/descentralizando-1-ipfs/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/descentralizando-1-ipfs/</guid>
+      <guid>/posts/ratsclub/descentralizando-1-ipfs/</guid>
       <description>IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
 Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na Wikipedia que será algo como:
  https://en.wikipedia.org/wiki/Vincent_Van_Gogh
@@ -25,10 +25,10 @@ Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesqu
     
     <item>
       <title>Rodando IPFS com Docker</title>
-      <link>/posts/rodando-ipfs-no-docker/</link>
+      <link>/posts/ratsclub/rodando-ipfs-no-docker/</link>
       <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/rodando-ipfs-no-docker/</guid>
+      <guid>/posts/ratsclub/rodando-ipfs-no-docker/</guid>
       <description>Esse tutorial fora escrito utilizando o Debian na versão 10.
 Muitas vezes quero utilizar o IPFS, entretanto não quero me preocupar em instalar a linguagem Go e muito menos em com a ferramenta ipfs_version.
 Instalando o Docker A instalação do docker é bem simples e pode ser feita através do seguinte link.
