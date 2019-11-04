@@ -63,7 +63,7 @@ Ele pode estar do outro lado do globo que você poderá mandar qualquer quantia 
 
 ## Quero mais do que uma fração de Nano
 
-Você provavelmente quer mais do que 0.001 Nano. Uma das maneiras mais rápidas para conseguir mais Nano é criando uma conta em uma corretora de cryptomoedas como a [Binance](https://www.binance.com/). Nela você pode comprar Bitcoin com ser cartão de crédito, trocá-lo em Nano e transferí-lo para sua carteira. Se você precisa de mais detalhes, a comunidade da Nano fica feliz em ajudar.
+Você provavelmente quer mais do que 0.001 Nano. Uma das maneiras mais rápidas para conseguir mais Nano é criando uma conta em uma corretora de cryptomoedas como a [Binance](https://www.binance.com/). Nela você pode comprar Bitcoin com seu cartão de crédito, trocá-lo em Nano e transferí-lo para sua carteira. Se você precisa de mais detalhes, a comunidade da Nano fica feliz em ajudar.
 
 Existem maneira mais baratas do que a Binance, entretanto isso está fora do escopo deste guia.
 

@@ -25,7 +25,7 @@ paginate = 5
     readOtherPosts = "Leia outros posts"
     newerPosts = "Posts mais novos"
     olderPosts = "Post mais antigos"
-    minuteReadingTime = "minuto de leitura"
+    minuteReadingTime = "minutos de leitura"
     dateFormatSingle = "02/01/2006"
     dateFormatList = "02/01/2006"
 
