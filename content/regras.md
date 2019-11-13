@@ -74,7 +74,8 @@ Membros que contribuem ativamente com o servidor.
 <br>
 
 #### 2. Patrocinador
-Membros que financiam os eventos do servidor.
+Membros que financiam os eventos do servidor. <br>
+*Todos os bens arrecadados com patrocínio serão designados aos eventos, ou seja, um retorno de 100% aos membros.*
 
 **Esse cargo pode:** [*Sênior, Publicar uma mensagem (com fins comerciais ou não) junto ao evento financiado]
 
@@ -115,4 +116,3 @@ Membros que querem ser notificados das novidades no servidor.
 
 #### 8. Desafios
 Membros que querem ser notificados sempre que o servidor lançar um novo desafio.
-
