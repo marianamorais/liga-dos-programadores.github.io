@@ -43,3 +43,6 @@ paginate = 5
         identifier = "sobre"
         name = "Sobre"
         url = "/sobre"
+        identifier = "regras"
+        name = "Regras"
+        url = "/regras"
