@@ -53,6 +53,20 @@ Liquída mais rápido Você recebe o dinheiro em menos de uma hora, enquanto out
     </item>
     
     <item>
+      <title>Indrodução ao Java</title>
+      <link>/posts/indroducao-ao-java/</link>
+      <pubDate>Wed, 30 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/indroducao-ao-java/</guid>
+      <description>Introdução Java é uma linguagem orientada a objetos que utiliza uma máquina virtual para a execução dos seus códigos.
+Instalação Para poder programar em Java precisamos baixar o Java Development Kit ou mais conhecido como JDK
+Windows No Windows precisamos entrar no site da oracle para poder baixar o JDK
+Linux No Linux basta rodar esses comandos:
+Debian/Ubuntu
+sudo add-apt-repository ppa:openjdk-r/ppa sudo apt-get update sudo apt-get install openjdk-12-jdk  CentOS</description>
+    </item>
+    
+    <item>
       <title>Conhecendo o IPFS</title>
       <link>/posts/ratsclub/conhecendo-ipfs/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
