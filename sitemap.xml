@@ -3,37 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/ratsclub/criando-um-pastebin-descentralizado/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ipfs/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
     <lastmod>2019-11-04T22:23:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/p2p/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/regras/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-11-04T22:23:52+00:00</lastmod>
   </url>
   
@@ -49,6 +24,21 @@
   
   <url>
     <loc>/posts/ratsclub/nano-2-seeds-e-chaves/</loc>
+    <lastmod>2019-11-03T01:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/p2p/</loc>
+    <lastmod>2019-11-03T01:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-11-03T01:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
@@ -74,6 +64,11 @@
   
   <url>
     <loc>/posts/ratsclub/conhecendo-ipfs/</loc>
+    <lastmod>2019-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ipfs/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url>
   

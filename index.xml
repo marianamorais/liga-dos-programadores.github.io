@@ -12,16 +12,6 @@
     
     
     <item>
-      <title>Criando um pastebin descentralizado com IPFS</title>
-      <link>/posts/ratsclub/criando-um-pastebin-descentralizado/</link>
-      <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
-      
-      <guid>/posts/ratsclub/criando-um-pastebin-descentralizado/</guid>
-      <description> Introducão Já
-Sumário  Introducão Sumário Ferramentas necessárias  Ferramentas necessárias  Nodejs Um navegador  </description>
-    </item>
-    
-    <item>
       <title>Regras</title>
       <link>/regras/</link>
       <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
