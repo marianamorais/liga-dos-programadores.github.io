@@ -6,10 +6,29 @@
     <description>Recent content on Liga dos Programadores</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 03 Nov 2019 01:46:19 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 22:23:52 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Criando um pastebin descentralizado com IPFS</title>
+      <link>/posts/ratsclub/criando-um-pastebin-descentralizado/</link>
+      <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
+      
+      <guid>/posts/ratsclub/criando-um-pastebin-descentralizado/</guid>
+      <description> Introducão Já
+Sumário  Introducão Sumário Ferramentas necessárias  Ferramentas necessárias  Nodejs Um navegador  </description>
+    </item>
+    
+    <item>
+      <title>Regras</title>
+      <link>/regras/</link>
+      <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
+      
+      <guid>/regras/</guid>
+      <description>REGRAS FORMAIS[^1] [^2]:  1. Respeite os demais membros 2. Não desvirtue os canais (texto e voz) ou atrapalhe conversas 3. Não poste conteúdo impróprio 4. Não participe de atividades impróprias 5. Não negocie ou divulgue conteúdo indevido  CARGOS [^3] [^4]:  1. Contribuidor 2. Patrocinador 3. Nitro Booster 4. Sênior 5. Pleno 6. Júnior 7. Novidades 8. Desafios   REGRAS FORMAIS1 2: 1. Respeite os demais membros Alguns parâmetros podem ser usados como fundamentação: Haver a intenção de ofender, e haver a oportunidade de ser ofendido.</description>
+    </item>
     
     <item>
       <title>Nano #2: Seeds e chaves</title>
@@ -45,10 +64,10 @@ Liquída mais rápido Você recebe o dinheiro em menos de uma hora, enquanto out
     
     <item>
       <title>Conhecendo o IPFS</title>
-      <link>/posts/ratsclub/descentralizando-1-ipfs/</link>
+      <link>/posts/ratsclub/conhecendo-ipfs/</link>
       <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/posts/ratsclub/descentralizando-1-ipfs/</guid>
+      <guid>/posts/ratsclub/conhecendo-ipfs/</guid>
       <description>IPFS? É de comer? IPFS é a sigla para Inter-Planetary File System. Trata-se de um sistema distribuído (Peer-to-Peer) para armazenamento e acesso de arquivos, websites, aplicações e dados.
 Mas o que isso quer dizer, exatamente? Imagine que você está fazendo uma pesquisa na internet sobre Vincent Van Gogh. Você provavelmente começará pela página de Vincent Van Gogh na Wikipedia que será algo como:
  https://en.wikipedia.org/wiki/Vincent_Van_Gogh
@@ -76,6 +95,15 @@ Muitas vezes quero utilizar o IPFS, entretanto não quero me preocupar em instal
 Instalando o Docker A instalação do docker é bem simples e pode ser feita através do seguinte link.
 Configurando o container  Crie diretórios para o IPFS
 $ mkdir -p ~/.ipfs/staging  Crie o seguinte script onde preferir</description>
+    </item>
+    
+    <item>
+      <title>Sobre</title>
+      <link>/sobre/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/sobre/</guid>
+      <description></description>
     </item>
     
   </channel>

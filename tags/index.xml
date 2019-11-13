@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Liga dos Programadores</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Sun, 03 Nov 2019 01:46:19 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 22:23:52 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ipfs</title>
+      <link>/tags/ipfs/</link>
+      <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
+      
+      <guid>/tags/ipfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p2p</title>
+      <link>/tags/p2p/</link>
+      <pubDate>Mon, 04 Nov 2019 22:23:52 +0000</pubDate>
+      
+      <guid>/tags/p2p/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>crypto</title>
@@ -30,15 +48,6 @@
     </item>
     
     <item>
-      <title>p2p</title>
-      <link>/tags/p2p/</link>
-      <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
-      
-      <guid>/tags/p2p/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>bch</title>
       <link>/tags/bch/</link>
       <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
@@ -53,15 +62,6 @@
       <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
       
       <guid>/tags/btc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ipfs</title>
-      <link>/tags/ipfs/</link>
-      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ipfs/</guid>
       <description></description>
     </item>
     
