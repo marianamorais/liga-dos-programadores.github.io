@@ -10,7 +10,6 @@ tags:
 - nano
 - p2p
 - crypto
-draft: false
 ---
 
 Mesmo que as criptomoedas sejão mais vistas como um ativo especulativo — fique rico rápido —, elas têm propriedades valiosas e casos de uso valiosos.
