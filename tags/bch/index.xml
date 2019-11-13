@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bch on Liga dos Programadores</title>
+    <link>/tags/bch/</link>
+    <description>Recent content in bch on Liga dos Programadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 02 Nov 2019 15:13:29 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/bch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Porque criptomoedas em cinco minutos</title>
+      <link>/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</link>
+      <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
+      
+      <guid>/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</guid>
+      <description>Mesmo que as criptomoedas sejão mais vistas como um ativo especulativo — fique rico rápido —, elas têm propriedades valiosas e casos de uso valiosos.
+Pagamentos mais baratos Comerciantes precisam pagar 1-4% de taxas para cada transação que envolva cartões de crédito. Transações com criptomoedas possuem somente uma pequena taxa fixa.1
+Liquída mais rápido Você recebe o dinheiro em menos de uma hora, enquanto outros pagamentos digitais — que também podem ser revertidos semanas ou meses depois — levam dias.</description>
+    </item>
+    
+  </channel>
+</rss>

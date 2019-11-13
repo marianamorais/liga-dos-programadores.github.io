@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Liga dos Programadores</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Liga dos Programadores</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sun, 03 Nov 2019 01:46:19 -0700</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>crypto</title>
+      <link>/tags/crypto/</link>
+      <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
+      
+      <guid>/tags/crypto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nano</title>
+      <link>/tags/nano/</link>
+      <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
+      
+      <guid>/tags/nano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>p2p</title>
+      <link>/tags/p2p/</link>
+      <pubDate>Sun, 03 Nov 2019 01:46:19 -0700</pubDate>
+      
+      <guid>/tags/p2p/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bch</title>
+      <link>/tags/bch/</link>
+      <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
+      
+      <guid>/tags/bch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>btc</title>
+      <link>/tags/btc/</link>
+      <pubDate>Sat, 02 Nov 2019 15:13:29 -0700</pubDate>
+      
+      <guid>/tags/btc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ipfs</title>
+      <link>/tags/ipfs/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ipfs/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
