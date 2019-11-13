@@ -7,7 +7,7 @@ description: "Vamos criar um site totalmente descentralizado que permite o compa
 tags:
 - ipfs
 - p2p
-draft: false
+draft: true
 ---
 
 # Introducão
