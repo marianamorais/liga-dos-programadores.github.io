@@ -32,7 +32,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Liga dos Programadores"
-      logoHomeLink = ""
+      logoHomeLink = "/static/img/liga-logo.png"
     # or
     #
     # path = "/img/your-example-logo.svg"
