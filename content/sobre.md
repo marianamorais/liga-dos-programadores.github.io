@@ -1,11 +1,13 @@
 ---
-title: "Sobre"
-date: "2020-02-19"
+title: "Sobre nós"
+date: "2020-03-17"
 description: "Sobre a comunidade"
+showReadingTime: false
+cover: img/liga-banner.jpg
 ---
 
-Somos uma comunidades aberta para programadores. Aqueles que se interessam 
-pelo mundo tecnológico podem compartilhar com a gente seu conhecimentos, projetos, debates, e dicas para o mercado de trabalho.
+Somos uma comunidade aberta para programadores e também para aqueles que se interessam 
+pelo mundo tecnológico. Vocês podem compartilhar com a gente seu conhecimentos, projetos, debates, e dicas para o mercado de trabalho.
 
 Se você tem interesse nessa área mas não sabe por onde começar nós podemos te ajudar nesse caminho. Lembre-se de que nunca é tarde para aprender algo novo.
 

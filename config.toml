@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://liga-dos-programadores.github.io/"
 languageCode = "pt-br"
 theme = "hello-friend"
 paginate = 5
@@ -32,7 +32,7 @@ paginate = 5
 
     [languages.en.params.logo]
       logoText = "Liga dos Programadores"
-      logoHomeLink = "/static/img/liga-logo.png"
+      logoHomeLink = ""
     # or
     #
     # path = "/img/your-example-logo.svg"
@@ -44,6 +44,6 @@ paginate = 5
         name = "Sobre"
         url = "/sobre"
       [[languages.en.menu.main]]
-        identifier = "regras"
-        name = "Regras"
-        url = "/regras"
+        identifier = "discord"
+        name = "Discord"
+        url = "/discord"
