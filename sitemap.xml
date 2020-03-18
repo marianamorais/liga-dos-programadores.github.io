@@ -3,97 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
+    <loc>https://liga-dos-programadores.github.io/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/regras/</loc>
-    <lastmod>2019-11-04T22:23:52+00:00</lastmod>
+    <loc>https://liga-dos-programadores.github.io/discord/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/crypto/</loc>
+    <loc>https://liga-dos-programadores.github.io/sobre/</loc>
+    <lastmod>2020-03-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://liga-dos-programadores.github.io/tags/crypto/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/nano/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/nano/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ratsclub/nano-2-seeds-e-chaves/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/nano-2-seeds-e-chaves/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/p2p/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/p2p/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/</loc>
     <lastmod>2019-11-03T01:46:19-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/</loc>
     <lastmod>2019-11-02T23:59:26-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/bch/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/bch/</loc>
     <lastmod>2019-11-02T15:13:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/btc/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/btc/</loc>
     <lastmod>2019-11-02T15:13:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/porque-criptomoedas-em-cinco-minutos/</loc>
     <lastmod>2019-11-02T15:13:29-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/indroducao-ao-java/</loc>
-    <lastmod>2019-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/ratsclub/conhecendo-ipfs/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/conhecendo-ipfs/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ipfs/</loc>
+    <loc>https://liga-dos-programadores.github.io/tags/ipfs/</loc>
     <lastmod>2019-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ratsclub/softwares-p2p/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/softwares-p2p/</loc>
     <lastmod>2019-10-21T00:14:17+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/ratsclub/rodando-ipfs-no-docker/</loc>
+    <loc>https://liga-dos-programadores.github.io/posts/ratsclub/rodando-ipfs-no-docker/</loc>
     <lastmod>2019-10-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/sobre/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
+    <loc>https://liga-dos-programadores.github.io/categories/</loc>
   </url>
   
 </urlset>

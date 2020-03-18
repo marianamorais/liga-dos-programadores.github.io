@@ -10,20 +10,20 @@
 Uma seed é um longo número que pode ser usado para gerar diversas chaves privadas, com isso em mente, um endereço (leia-se conta) Nano é somente uma chave pública com um checksum que são interligados com a chave privada original."/>
 <meta name="keywords" content=""/>
 <meta name="robots" content="noodp"/>
-<link rel="canonical" href="/posts/ratsclub/nano-2-seeds-e-chaves/" />
+<link rel="canonical" href="https://liga-dos-programadores.github.io/posts/ratsclub/nano-2-seeds-e-chaves/" />
 
 
 
 
 
-<link rel="stylesheet" href="/assets/style.css">
+<link rel="stylesheet" href="https://liga-dos-programadores.github.io/assets/style.css">
 
 
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://liga-dos-programadores.github.io/style.css">
 
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
-<link rel="shortcut icon" href="/img/favicon.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://liga-dos-programadores.github.io/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://liga-dos-programadores.github.io/img/favicon.png">
 
 
 <meta name="twitter:card" content="summary"/>
@@ -35,7 +35,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
 <meta property="og:title" content="Nano #2: Seeds e chaves" />
 <meta property="og:description" content="Como funciona o sistema de chaves do nano?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/posts/ratsclub/nano-2-seeds-e-chaves/" />
+<meta property="og:url" content="https://liga-dos-programadores.github.io/posts/ratsclub/nano-2-seeds-e-chaves/" />
 <meta property="article:published_time" content="2019-11-03T01:46:19-07:00" />
 <meta property="article:modified_time" content="2019-11-03T01:46:19-07:00" /><meta property="og:site_name" content="Liga dos Programadores" />
 
@@ -49,7 +49,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
     <div class="container">
       <header class="header">
   <span class="header__inner">
-    <a href="/" class="logo" style="text-decoration: none;">
+    <a href="https://liga-dos-programadores.github.io/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -67,7 +67,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
     
       
         
-          <li><a href="/regras">Regras</a></li>
+          <li><a href="/discord">Discord</a></li>
         
       
         
@@ -81,7 +81,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
   <ul class="menu__inner menu__inner--mobile">
     
       
-        <li><a href="/regras">Regras</a></li>
+        <li><a href="/discord">Discord</a></li>
       
     
       
@@ -114,7 +114,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
       <div class="content">
         
   <div class="post">
-    <h2 class="post-title"><a href="/posts/ratsclub/nano-2-seeds-e-chaves/">Nano #2: Seeds e chaves</a></h2>
+    <h2 class="post-title"><a href="https://liga-dos-programadores.github.io/posts/ratsclub/nano-2-seeds-e-chaves/">Nano #2: Seeds e chaves</a></h2>
     <div class="post-meta">
       
         <span class="post-date">
@@ -130,93 +130,56 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
     
       <span class="post-tags">
         
-          #<a href="/tags/nano/">nano</a>&nbsp;
+          #<a href="https://liga-dos-programadores.github.io/tags/nano/">nano</a>&nbsp;
         
-          #<a href="/tags/p2p/">p2p</a>&nbsp;
+          #<a href="https://liga-dos-programadores.github.io/tags/p2p/">p2p</a>&nbsp;
         
-          #<a href="/tags/crypto/">crypto</a>&nbsp;
+          #<a href="https://liga-dos-programadores.github.io/tags/crypto/">crypto</a>&nbsp;
         
       </span>
     
 
     
       
-        <img src="/ratsclub/nano-2-seeds-e-chaves/cover.jpg" class="post-cover" />
+        <img src="https://liga-dos-programadores.github.io/ratsclub/nano-2-seeds-e-chaves/cover.jpg" class="post-cover" />
       
     
 
     <div class="post-content">
-      
-
-<h2 id="resumo">Resumo</h2>
-
+      <h2 id="resumo">Resumo</h2>
 <p><strong>Nano</strong> utiliza um sistema de <strong>chaves públicas</strong> e <strong>privadas</strong> para mandar e receber blocos, em outras palavras: <em>&ldquo;Suas chaves, seu Nano. Não são suas chaves, não é seu Nano&rdquo;</em>.</p>
-
 <p>Uma <strong>seed</strong> é um longo número que pode ser usado para gerar diversas chaves privadas, com isso em mente, um <strong>endereço</strong> (leia-se conta) Nano é somente uma chave pública com um checksum que são interligados com a chave privada original.</p>
-
 <h2 id="o-que-são-chaves-públicas-e-privadas">O que são chaves públicas e privadas?</h2>
-
 <p>Chaves públicas e privadas são parte vitais de uma criptomoeda e provêem um método de posse das moedas e token. <strong>São números únicos e longos demais para ser adivinhados</strong> que funcionam como chaves e dão acesso ao usuários.</p>
-
 <p><em>É interessante frisar que seus Nano não são armazenados em sua carteira! Na verdade, eles existem na rede e sua carteira simplesmente possui as chaves para manipulá-los.</em></p>
-
 <p>Nano usa um padrão bem estabelecido de chaves públicas e privadas. Uma chave privada é usada para &ldquo;assinar&rdquo; transações no bloco. Essa chave privada possui uma chave pública que é diretamente ligada a um endereço. O único método para criar uma transação ligada à uma carteira é assinar esse block com uma <strong>chave privada</strong> — com Nano isso pode ser enviado e recebido.</p>
-
-<p><center>
-<img src="/ratsclub/nano-2-seeds-e-chaves/fig-1.jpg" alt="" />
-<em>Fig. 1 Assinando blocos - draw.io</em>
-</center></p>
-
+<!-- raw HTML omitted -->
 <p>Como a chave privada é única, quando com o bloco é criada uma única assinatura. A chave pública correspondente pode ser usada para verificar se a assinatura está correta, entretanto, se você tentar criar um bloco assinado com uma chave privada incorreta, será fácil para a rede rejeitar esse bloco.</p>
-
 <p>Isso significa que os usuários não precisam dar suas chaves privadas para a verificação, somente as chaves públicas.</p>
-
-<p><center>
-<img src="/ratsclub/nano-2-seeds-e-chaves/fig-2.jpg" alt="" />
-<em>Fig. 2 Checando se um bloco assinado é válido - draw.io</em>
-</center></p>
-
+<!-- raw HTML omitted -->
 <h2 id="o-que-é-uma-seed">O que é uma seed?</h2>
-
 <p>Uma <strong>seed</strong> (ou semente) é uma forma fácil de gerenciar diversas chaves privadas. Ao invés de termos muitas e muitas chaves privadas, você possui um longo número chamado seed que será executado contra outro algorítmo que será responsável por gerar outras chaves privadas (e suas correspondentes chaves públicas). As chaves privadas são geradas em sequência, ou seja, sua primeira chave sempre será a primeira, a segunda sempre será a segunda e assim em diante.</p>
-
 <p>Esse processo permite que você recupere suas chaves e seus Nano com uma única seed.</p>
-
-<p><center>
-<img src="/ratsclub/nano-2-seeds-e-chaves/fig-3.jpg" alt="" />
-<em>Fig. 3 Uma seed sempre produzirá as mesmas chaves privadas em ordem - draw.io</em>
-</center></p>
-
+<!-- raw HTML omitted -->
 <h2 id="como-endereços-nano-são-gerados">Como endereços Nano são gerados?</h2>
-
 <p>Seu endereço Nano — começados nano_ — são suas chaves públicas e um checksum. O checksum torna fácil o processo de verificação de autenticação da conta, ou seja, verificar se é uma conta válida ou não. É possível ver uma conta através de uma chave pública e vice-versa. Em resumo:</p>
-
 <ul>
 <li>Um endereço é ligado à uma chave pública através uma chave privada</li>
 <li>Em um bloco Nano, cada endereço possui seu próprio blockchain. Isso que permite a reutilização de seu interesse.</li>
 </ul>
-
 <h2 id="mais-informações">Mais informações</h2>
-
 <ul>
 <li><a href="https://nanoo.tools/key-guide">https://nanoo.tools/key-guide</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Public-key_cryptography">https://en.wikipedia.org/wiki/Public-key_cryptography</a></li>
 <li><a href="https://docs.nano.org/integration-guides/the-basics/#account-key-seed-and-wallet-ids">https://docs.nano.org/integration-guides/the-basics/#account-key-seed-and-wallet-ids</a></li>
 <li><a href="https://nanoo.tools/key-address-seed-converter">https://nanoo.tools/key-address-seed-converter</a></li>
 </ul>
-
 <p>*<em>Esse guia foi totalmente traduzido a partir do seguinte <a href="https://amp-reddit-com.cdn.ampproject.org/c/s/amp.reddit.com/r/nanocurrency/comments/aoe0me/nano_how_1_seeds_and_keys/">post</a> do usuário u/jayycox no reddit. Todos os créditos são dele.</em></p>
-
-<hr />
-
-<h2 id="me-ajude-com-um-café">Me ajude com um café ☕</h2>
-
+<hr>
+<h2 id="me-ajude-com-um-café-">Me ajude com um café ☕</h2>
 <p><strong>BTC</strong>: <a href="bitcoin:bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0">bc1qkc3yruufzkqxyvq5exe50lwrmtc00pmnf4wua0</a></p>
-
 <p><strong>BCH</strong>: <a href="bitcoincash:qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k">qqgtmvglvrr6297d6m2z3634pr0a6m77p5ke9lg03k</a></p>
-
 <p><strong>ETH</strong>: <a href="ethereum:0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E">0xbff1fFA9D91f81100E801120d03eA6C74F7dA87E</a></p>
-
 <p><strong>NANO</strong>: <a href="nano:nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw">nano_1g4xrbrqd9axxdjjetkzxk9djinotbuqpbe9ccz3btscctjqyz4m6s5qxbiw</a></p>
 
     </div>
@@ -230,7 +193,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
           
           
             <span class="button next">
-              <a href="/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/">
+              <a href="https://liga-dos-programadores.github.io/posts/ratsclub/nano-1-guia-rapido-e-pratico-para-nano/">
                 <span class="button__text">Nano #1: Guia rápido e prático para Nano</span>
                 <span class="button__icon">→</span>
               </a>
@@ -250,7 +213,7 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
         <footer class="footer">
   <div class="footer__inner">
     
-      <a href="/" class="logo" style="text-decoration: none;">
+      <a href="https://liga-dos-programadores.github.io/" class="logo" style="text-decoration: none;">
   
     <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
   <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
@@ -262,15 +225,15 @@ Uma seed é um longo número que pode ser usado para gerar diversas chaves priva
 </a>
 
       <div class="copyright">
-        <span>© 2019 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
+        <span>© 2020 Powered by <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span>
         <span>Theme created by <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span>
       </div>
     
   </div>
 </footer>
 
-<script src="/assets/main.js"></script>
-<script src="/assets/prism.js"></script>
+<script src="https://liga-dos-programadores.github.io/assets/main.js"></script>
+<script src="https://liga-dos-programadores.github.io/assets/prism.js"></script>
 
 
       
