@@ -13,6 +13,14 @@ paginate = 5
   # Show reading time in minutes for posts
   showReadingTime = true
 
+[params.favicon]
+  # you may want to use https://realfavicongenerator.net to generate you files
+  # used in layouts/partials/head.favicon.html
+  # relURL is applied to path 
+  enable    = true
+  path      = "/static/img/favicon/favicon.ico"
+  version   = "1.0" 
+
 [languages]
   [languages.en]
     title = "Liga dos Programadores"

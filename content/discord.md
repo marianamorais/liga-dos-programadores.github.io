@@ -9,7 +9,7 @@ O servidor foi criado em 2017, com o objetivo de juntar pessoas que se interessa
 
 Hoje estamos recebendo vários feedbacks sobre o que podemos implementar na comunidade para que fique mais interessante para todos.
 
-Se você tem interesse em entrar no [servidor](https://support.discordapp.com/hc/pt-br/articles/219470277-Come%C3%A7ando) e nos passar feedbacks ficaremos agradecidos :)
+Se você tem interesse em entrar no [servidor](https://discord.gg/YAqEyPu) e nos passar feedbacks ficaremos agradecidos :)
 
 
 
